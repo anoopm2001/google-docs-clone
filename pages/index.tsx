@@ -42,7 +42,7 @@ export default function Home() {
     
     setInput("");
     setShowModal(false);
-    router.replace("/");
+    router.reload();
     
    };
   const modal = (<Modal size="sm" active={showModal} toggler={() => setShowModal(false)}>
