@@ -65,7 +65,7 @@ function Doc() {
         </Button>
         <img
           src={session?.user?.image}
-          className="cursor-pointer h-12 w-12 rounded-full ml-2"
+          className="cursor-pointer h-10 w-10 rounded-full ml-2 md:h-12 md:w-12"
         />
       </header>
       <TextEditor />
