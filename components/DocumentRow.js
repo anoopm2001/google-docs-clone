@@ -11,10 +11,10 @@ function DocumentRow({ id, filename, date }) {
     >
       <Icon name="article" size="3xl" color="blue" />
       <p className="flex-grow pl-5 w-10 pr-10 md:truncate">{filename}</p>
-      <p className="pr-5 text-sm sm:hidden  ">
+      <p className=" p-10  text-sm sm:hidden  ">
         {date?.toDate().toDateString()}
       </p>
-      <p className="pr-5 text-sm hidden md:inline-flex">
+      <p className=" text-sm hidden md:inline-flex">
         {date?.toDate().toLocaleString()}
       </p>
       <Button
